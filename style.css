@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #26265a;
+    padding: 20px;
+}
+
+.kepala {
+    max-width: 960px;
+    margin: 0 auto 20px;
+}
+
+.kepala h1 {
+    font-size: 1.6rem;
+}
+
+.filter {
+    margin-top: 12px;
+}
+
+.filter a {
+    display: inline-block;
+    padding: 6px 14px;
+    margin: 0 6px 6px 0;
+    border: 1px solid #6b6bb8;
+    border-radius: 20px;
+    color: #26265a;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.filter a:hover,
+.filter a.aktif {
+    background-color: #26265a;
+    color: #ffffff;
+}
+
+.grid {
+    max-width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 16px;
+}
+
+.kartu {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 18px;
+}
+
+.kartu h2 {
+    font-size: 1.05rem;
+    margin-top: 10px;
+}
+
+.kategori {
+    font-size: 0.85rem;
+    color: #6b6b8a;
+}
+
+.harga {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #d9822b;
+    margin-top: 8px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.badge--aman { background-color: #2e8b57; }
+.badge--menipis { background-color: #f0a33a; }
+.badge--habis { background-color: #c0392b; }
+
+.kosong,
+.kaki {
+    max-width: 960px;
+    margin: 20px auto 0;
+    color: #6b6b8a;
+}
